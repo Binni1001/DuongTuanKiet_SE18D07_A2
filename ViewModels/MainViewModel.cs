@@ -15,7 +15,7 @@ namespace DuongTuanKiet_SE18D07_A02.ViewModels
         public MainViewModel(CustomerDto currentUser)
         {
             _currentUser = currentUser;
-            
+
             ShowCustomerManagementCommand = new RelayCommand(ShowCustomerManagement);
             ShowRoomManagementCommand = new RelayCommand(ShowRoomManagement);
             ShowBookingManagementCommand = new RelayCommand(ShowBookingManagement);

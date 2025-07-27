@@ -20,8 +20,22 @@ namespace DuongTuanKietWPF.Business.Services
 
         public async Task<IEnumerable<BookingDto>> GetAllBookingsAsync()
         {
-            var bookings = await _unitOfWork.Bookings.GetBookingsWithDetailsAsync();
-            return MappingHelper.ToDto(bookings);
+            try
+            {
+                System.Diagnostics.Debug.WriteLine("BookingService: Getting all bookings...");
+                var bookings = await _unitOfWork.Bookings.GetBookingsWithDetailsAsync();
+                System.Diagnostics.Debug.WriteLine($"BookingService: Retrieved {bookings.Count()} bookings from repository");
+
+                var dtos = MappingHelper.ToDto(bookings);
+                System.Diagnostics.Debug.WriteLine($"BookingService: Mapped to {dtos.Count()} DTOs");
+                return dtos;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"BookingService: Error in GetAllBookingsAsync - {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"BookingService: Stack trace - {ex.StackTrace}");
+                throw;
+            }
         }
 
         public async Task<BookingDto?> GetBookingByIdAsync(int bookingId)

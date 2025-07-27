@@ -15,12 +15,41 @@ namespace DuongTuanKietWPF.DataAccess.Repositories
 
         public async Task<IEnumerable<BookingReservation>> GetBookingsWithDetailsAsync()
         {
-            return await _dbSet
-                .Include(b => b.Customer)
-                .Include(b => b.BookingDetails)
-                    .ThenInclude(bd => bd.Room)
-                        .ThenInclude(r => r.RoomType)
-                .ToListAsync();
+            try
+            {
+                System.Diagnostics.Debug.WriteLine("BookingRepository: Getting bookings with details...");
+
+                // First test basic connection
+                var count = await _dbSet.CountAsync();
+                System.Diagnostics.Debug.WriteLine($"BookingRepository: Total booking count in database: {count}");
+
+                // Test basic query without includes
+                var basicBookings = await _dbSet.ToListAsync();
+                System.Diagnostics.Debug.WriteLine($"BookingRepository: Basic bookings retrieved: {basicBookings.Count}");
+
+                // Now try with includes
+                var bookings = await _dbSet
+                    .Include(b => b.Customer)
+                    .Include(b => b.BookingDetails)
+                        .ThenInclude(bd => bd.Room)
+                            .ThenInclude(r => r.RoomType)
+                    .ToListAsync();
+
+                System.Diagnostics.Debug.WriteLine($"BookingRepository: Found {bookings.Count()} bookings with details");
+
+                foreach (var booking in bookings)
+                {
+                    System.Diagnostics.Debug.WriteLine($"BookingRepository: Booking {booking.BookingReservationId}, Customer: {booking.Customer?.CustomerFullName}, Details: {booking.BookingDetails?.Count ?? 0}");
+                }
+
+                return bookings;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"BookingRepository: Error getting bookings - {ex.Message}");
+                System.Diagnostics.Debug.WriteLine($"BookingRepository: Stack trace - {ex.StackTrace}");
+                throw;
+            }
         }
 
         public async Task<BookingReservation?> GetBookingWithDetailsAsync(int bookingId)

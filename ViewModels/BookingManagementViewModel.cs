@@ -100,25 +100,32 @@ namespace DuongTuanKiet_SE18D07_A02.ViewModels
             try
             {
                 IsLoading = true;
+                System.Diagnostics.Debug.WriteLine($"BookingManagementViewModel: Loading bookings, IsAdmin={IsAdmin}");
                 IEnumerable<BookingDto> bookings;
-                
+
                 if (IsAdmin)
                 {
+                    System.Diagnostics.Debug.WriteLine("BookingManagementViewModel: Getting all bookings for admin");
                     bookings = await _bookingService.GetAllBookingsAsync();
                 }
                 else
                 {
+                    System.Diagnostics.Debug.WriteLine($"BookingManagementViewModel: Getting bookings for customer {_currentUser.CustomerId}");
                     bookings = await _bookingService.GetBookingsByCustomerAsync(_currentUser.CustomerId);
                 }
 
+                System.Diagnostics.Debug.WriteLine($"BookingManagementViewModel: Retrieved {bookings.Count()} bookings");
                 Bookings.Clear();
                 foreach (var booking in bookings)
                 {
                     Bookings.Add(booking);
+                    System.Diagnostics.Debug.WriteLine($"BookingManagementViewModel: Added booking {booking.BookingReservationId}");
                 }
+                System.Diagnostics.Debug.WriteLine($"BookingManagementViewModel: Final Bookings count: {Bookings.Count}");
             }
             catch (Exception ex)
             {
+                System.Diagnostics.Debug.WriteLine($"BookingManagementViewModel: Error loading bookings - {ex.Message}");
                 MessageBox.Show($"Error loading bookings: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
             finally

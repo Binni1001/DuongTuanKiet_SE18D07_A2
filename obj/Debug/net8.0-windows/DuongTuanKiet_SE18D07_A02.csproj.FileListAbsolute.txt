@@ -158,3 +158,4 @@ D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\obj\Debug\net8.0-windows\Vi
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\obj\Debug\net8.0-windows\Views\CustomerProfileView.baml
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\obj\Debug\net8.0-windows\Views\ReportView.baml
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\obj\Debug\net8.0-windows\Views\RoomManagementView.baml
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\obj\Debug\net8.0-windows\DuongTuanKiet_SE18D07_A02.sourcelink.json

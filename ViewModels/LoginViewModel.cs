@@ -89,13 +89,16 @@ namespace DuongTuanKiet_SE18D07_A02.ViewModels
                     Password = Password
                 };
 
+                System.Diagnostics.Debug.WriteLine("Attempting customer authentication...");
                 var customer = await _customerService.AuthenticateAsync(loginDto);
                 if (customer != null)
                 {
+                    System.Diagnostics.Debug.WriteLine($"Authentication successful for: {customer.CustomerFullName}");
                     LoginSuccessful?.Invoke(this, customer);
                 }
                 else
                 {
+                    System.Diagnostics.Debug.WriteLine("Authentication failed - no matching user found");
                     ErrorMessage = "Invalid email or password.";
                 }
             }

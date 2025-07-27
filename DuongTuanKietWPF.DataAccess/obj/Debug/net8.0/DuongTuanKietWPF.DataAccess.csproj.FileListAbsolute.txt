@@ -10,3 +10,4 @@ D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.pdb
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.genruntimeconfig.cache
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\ref\DuongTuanKietWPF.DataAccess.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.sourcelink.json

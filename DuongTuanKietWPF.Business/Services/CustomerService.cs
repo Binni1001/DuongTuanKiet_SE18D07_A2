@@ -38,8 +38,18 @@ namespace DuongTuanKietWPF.Business.Services
 
         public async Task<CustomerDto?> AuthenticateAsync(CustomerLoginDto loginDto)
         {
-            var customer = await _unitOfWork.Customers.AuthenticateAsync(loginDto.EmailAddress, loginDto.Password);
-            return customer != null ? MappingHelper.ToDto(customer) : null;
+            try
+            {
+                System.Diagnostics.Debug.WriteLine($"CustomerService: Authenticating {loginDto.EmailAddress}");
+                var customer = await _unitOfWork.Customers.AuthenticateAsync(loginDto.EmailAddress, loginDto.Password);
+                System.Diagnostics.Debug.WriteLine($"CustomerService: Authentication result - {(customer != null ? "SUCCESS" : "FAILED")}");
+                return customer != null ? MappingHelper.ToDto(customer) : null;
+            }
+            catch (Exception ex)
+            {
+                System.Diagnostics.Debug.WriteLine($"CustomerService: Authentication error - {ex.Message}");
+                throw;
+            }
         }
 
         public async Task<CustomerDto> CreateCustomerAsync(CustomerCreateDto customerCreateDto)

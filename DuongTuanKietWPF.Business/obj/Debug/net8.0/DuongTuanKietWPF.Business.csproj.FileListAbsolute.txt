@@ -11,3 +11,4 @@ D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\o
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\refint\DuongTuanKietWPF.Business.dll
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\DuongTuanKietWPF.Business.pdb
 D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\ref\DuongTuanKietWPF.Business.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\DuongTuanKietWPF.Business.sourcelink.json
