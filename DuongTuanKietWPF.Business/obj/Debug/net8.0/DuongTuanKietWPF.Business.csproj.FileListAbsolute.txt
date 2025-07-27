@@ -1,0 +1,13 @@
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\bin\Debug\net8.0\DuongTuanKietWPF.Business.deps.json
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\bin\Debug\net8.0\DuongTuanKietWPF.Business.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\bin\Debug\net8.0\DuongTuanKietWPF.Business.pdb
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\bin\Debug\net8.0\DuongTuanKietWPF.DataAccess.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\bin\Debug\net8.0\DuongTuanKietWPF.DataAccess.pdb
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\DuongTuanKietWPF.Business.csproj.AssemblyReference.cache
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\DuongTuanKietWPF.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\DuongTuanKietWPF.Business.csproj.CoreCompileInputs.cache
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\DuongTua.C1436910.Up2Date
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\DuongTuanKietWPF.Business.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\refint\DuongTuanKietWPF.Business.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\DuongTuanKietWPF.Business.pdb
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.Business\obj\Debug\net8.0\ref\DuongTuanKietWPF.Business.dll

@@ -1,0 +1,12 @@
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\bin\Debug\net8.0\DuongTuanKietWPF.DataAccess.deps.json
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\bin\Debug\net8.0\DuongTuanKietWPF.DataAccess.runtimeconfig.json
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\bin\Debug\net8.0\DuongTuanKietWPF.DataAccess.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\bin\Debug\net8.0\DuongTuanKietWPF.DataAccess.pdb
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.csproj.AssemblyReference.cache
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.csproj.CoreCompileInputs.cache
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\refint\DuongTuanKietWPF.DataAccess.dll
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.pdb
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\DuongTuanKietWPF.DataAccess.genruntimeconfig.cache
+D:\Chuyennganh5\PRN212\Ass\DuongTuanKiet_SE18D07_A02\DuongTuanKietWPF.DataAccess\obj\Debug\net8.0\ref\DuongTuanKietWPF.DataAccess.dll
